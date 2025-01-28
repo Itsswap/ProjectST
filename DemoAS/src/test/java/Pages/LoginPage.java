@@ -9,20 +9,22 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
-import commonmistake.CommonMethods;
+import commonmethod.CommonMethods;
 import masterpag.MasterPage;
 
-public class LoginPage extends CommonMethods {
+public class LoginPage extends CommonMethods
+{
 	
-	public LoginPage() throws Exception {
+	public LoginPage() throws Exception 
+	{
 		super();
 	}
 
-	public void getUserField() {
+	public void getUserField() 
+	{
 		sendkeys("Username", "username");
 		sendkeys("Password", "password");
 		clickmethod("LgnButton");
-		
 	}
 	
 

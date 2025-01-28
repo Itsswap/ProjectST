@@ -8,18 +8,12 @@ import masterpag.MasterPage;
 
 public class ProductsTestCase extends MasterPage{
 
-	public ProductsTestCase() throws Exception {
-		super();
-	}
-
 	@Test
 	public void producttest() throws Exception {
-
+		//LoginPage loginPage = new LoginPage();
+	    //loginPage.getUserField();
 		ProductsPage p = new ProductsPage();
 		p.dropdown();
-		
-		
-
 	}
 
 }

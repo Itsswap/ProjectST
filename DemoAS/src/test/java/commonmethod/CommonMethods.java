@@ -1,4 +1,4 @@
-package commonmistake;
+package commonmethod;
 
 import org.openqa.selenium.By;
 
@@ -25,6 +25,5 @@ public class CommonMethods extends MasterPage {
 		driver.findElement(By.id(p1.getProperty(xpathkey))).sendKeys(p2.getProperty(testdata));
 	}
 
-	// Clear
-	// public void
+	
 }
